@@ -17,7 +17,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-//apply plugin: 'war'
+apply plugin: 'war'
 
 
 group = 'com.crud'
@@ -43,6 +43,6 @@ dependencies {
 	compileOnly('org.projectlombok:lombok')
 	annotationProcessor('org.projectlombok:lombok')
 
-	//providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 
 }
