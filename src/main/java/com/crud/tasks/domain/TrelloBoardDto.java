@@ -6,11 +6,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+
 import java.util.List;
 
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
-//@NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloBoardDto {
 
